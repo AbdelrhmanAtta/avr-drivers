@@ -58,7 +58,7 @@ unsigned char UART_RxChar(void)
 	return UDR0;
 }
 
-/*========			Definition Defention Section End	========*/
+/*========			Functions Definition Section End	========*/
 
 
 /*================================================================================
