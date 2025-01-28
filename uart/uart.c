@@ -20,8 +20,8 @@
 /*========			Function Definition Section Start	========*/
 
 /**
- * Function:	UART_init(usigned int);
- * Use:		Intilaise UART0 registers.
+ * Function:	UART_init(unsigned int);
+ * Use:		Initialize UART0 registers.
  * Input:	unsigned int ubrr (baud rate prescaler value)
  * Output:	void
  **/
@@ -48,7 +48,7 @@ void UART_TxChar(unsigned char ch)
 
 /**
  * Function:	UART_RxChar(void);
- * Use:		Recives unsigned character.
+ * Use:		Receives unsigned character.
  * Input:	void
  * Output:	unsigned character
  **/
